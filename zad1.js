@@ -17,12 +17,12 @@ class Array {
 }
 
 //CHANGE THIS
-var n = 3;
+var numberofPartitions = 3;
 var masterArray = [8, 1, 5, 2, 4, 1, 9, 8];
 
 masterArray.sort(compareNumbers);
 var list = [];
-for (var i = 0; i < n; i++) {
+for (var i = 0; i < numberofPartitions; i++) {
   list.push(new Array());
 }
 
