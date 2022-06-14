@@ -16,7 +16,7 @@ class Array {
   }
 }
 
-//CHANGE THIS
+//CHANGE THIS!
 var numberofPartitions = 3;
 var masterArray = [8, 1, 5, 2, 4, 1, 9, 8];
 
@@ -38,8 +38,4 @@ while (masterArray.length > 0) {
 
 list.forEach((array) => {
   console.log(array.list + " sum: ", array.sum);
-});
-
-var a = list.reduce((prev, curr) => {
-  return curr.sum < prev.sum ? curr : prev;
 });
