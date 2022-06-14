@@ -8,7 +8,7 @@ for (var i = 0; i < pyramidHeight; i++) {
     process.stdout.write(" ");
   }
   for (var j = 0; j < i * 2 + 1; j++) {
-    "" + (pyramidHeight - i);
+    process.stdout.write("" + (pyramidHeight - i));
   }
   for (var j = 0; j < k; j++) {
     process.stdout.write(" ");
